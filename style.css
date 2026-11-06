@@ -1,0 +1,21 @@
+body, html {
+    background-color: rgb(174, 123, 200);
+}
+
+#main {
+    
+    height: 120vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videoStuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: cornsilk;
+}
