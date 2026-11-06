@@ -1,21 +1,33 @@
 body, html {
-    background-color: rgb(174, 123, 200);
+   background-image: url(wallpaper.jpg);
 }
 
 #main {
-    
-    height: 120vh;
-    width: 80vw;
+
+    height: 180vh;
+    width: 90vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #videoStuff {
+    background-image: url(pinkwindow.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 50%;
     background-color: cornsilk;
+}
+
+#connect {
+    position: absolute;
+    bottom: -330px;
+    right: 600px;
+    justify-content: center;
+    align-items: center;
+
 }
